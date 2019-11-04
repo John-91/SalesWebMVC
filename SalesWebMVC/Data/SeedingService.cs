@@ -36,11 +36,11 @@ namespace SalesWebMVC.Data
             Seller s4 = new Seller(4, "Thallita Pedreira", "thallita@hotmail.com", new DateTime(1997, 7, 10), 1500.0, d3);
             Seller s5 = new Seller(5, "Raul Luar", "raul@hotmail.com", new DateTime(1977, 7, 10), 1500.0, d4);
 
-            SalesRecord sr1 = new SalesRecord(1, new DateTime(2019, 10, 28), 11000.0, SaleStatus.Billed, s1);
-            SalesRecord sr2 = new SalesRecord(2, new DateTime(2019, 10, 28), 9000.0, SaleStatus.Billed, s2);
+            SalesRecord sr1 = new SalesRecord(1, new DateTime(2019, 10, 9), 11000.0, SaleStatus.Billed, s1);
+            SalesRecord sr2 = new SalesRecord(2, new DateTime(2019, 10, 10), 9000.0, SaleStatus.Billed, s2);
             SalesRecord sr3 = new SalesRecord(3, new DateTime(2019, 10, 28), 7000.0, SaleStatus.Billed, s3);
-            SalesRecord sr4 = new SalesRecord(4, new DateTime(2019, 10, 28), 8000.0, SaleStatus.Billed, s4);
-            SalesRecord sr5 = new SalesRecord(5, new DateTime(2019, 10, 28), 3000.0, SaleStatus.Billed, s5);
+            SalesRecord sr4 = new SalesRecord(4, new DateTime(2019, 10, 15), 8000.0, SaleStatus.Billed, s4);
+            SalesRecord sr5 = new SalesRecord(5, new DateTime(2019, 10, 3), 3000.0, SaleStatus.Billed, s5);
 
             _context.Departaments.AddRange(d1, d2, d3, d4);
 
